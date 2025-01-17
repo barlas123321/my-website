@@ -32,7 +32,7 @@ html, body{
     padding: 10px 15px;
     background: #040c43;
     border-radius: 5px;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #head-title:hover a{
     color: rgb(210, 210, 210);
@@ -54,7 +54,7 @@ h1, h2, h3, h4, p, a {
 }
 #projects-nav{
     padding: 5px;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #projects-nav:hover{
     transform: scale(1.13);
@@ -62,7 +62,7 @@ h1, h2, h3, h4, p, a {
 }
 #contact-nav{
     padding: 5px;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #contact-nav:hover{
     transform: scale(1.13);
@@ -70,7 +70,7 @@ h1, h2, h3, h4, p, a {
 }
 #about-me-nav{
     padding: 5px;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #about-me-nav:hover{
     transform: scale(1.13);
@@ -110,11 +110,9 @@ h1, h2, h3, h4, p, a {
     justify-content: center;
     margin: 150px 0 0 0;
 }
-#bal{
-    color: 	#ff4141;
-}
 #about-me-main h4{
     margin: 0px ;
+    font-weight: 400;
 }
 #contact-main{
     margin: 150px 0 0 0;
@@ -129,7 +127,7 @@ h1, h2, h3, h4, p, a {
     width: 70px;
     border: 2px white solid;
     border-radius: 100%;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #github-logo:hover{
     transform: scale(1.13);
@@ -138,7 +136,7 @@ h1, h2, h3, h4, p, a {
     width: 70px;
     border: 2px white solid;
     border-radius: 100%;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #instagram-logo:hover{
     transform: scale(1.13);
@@ -150,7 +148,7 @@ h1, h2, h3, h4, p, a {
     color: beige;
     font-size: large;
     font-family: "Lemon Milk", serif;
-    transition: 100ms;
+    transition: 0.5s;
 }
 #email-button button:hover{
     transform: scale(1.13);
